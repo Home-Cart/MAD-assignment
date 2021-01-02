@@ -1,20 +1,19 @@
 import 'package:flutter/material.dart';
-import 'screens/customer_signup_screen.dart';
-import 'screens/items_screen.dart';
+import 'package:flutter/rendering.dart';
+import 'package:homecart/ItemsSupplier.dart';
 
-void main() {
-  runApp(HomeCart());
+void main(){
+  runApp(SignIn());
+
 }
-
-class HomeCart extends StatelessWidget {
+class SignIn extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      initialRoute: ItemsScreen.id,
-      routes: {
-        CustomerSignupScreen.id: (context) => CustomerSignupScreen(),
-        ItemsScreen.id: (context) => ItemsScreen(),
-      },
+
+        home: ItemsSupplier(),
     );
   }
+
+
 }

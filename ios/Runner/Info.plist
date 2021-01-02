@@ -11,13 +11,22 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>home_cart</string>
+	<string>homecart</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
 	<string>$(FLUTTER_BUILD_NAME)</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
+
+ //imagepicker
+
+	<key>NSPhotoLibraryUsageDescription</key>
+	<String>Describe why your app need permission for the photo library</String>
+	<key>NSCameraUsageDescription</key>
+	<String>Describe why your app need permission for the camera</String>
+
+
 	<key>CFBundleVersion</key>
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
 	<key>LSRequiresIPhoneOS</key>
