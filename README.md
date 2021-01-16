@@ -1,4 +1,4 @@
-# cart2
+# home_cart
 
 A new Flutter application.
 
