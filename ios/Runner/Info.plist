@@ -11,7 +11,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>homecart</string>
+	<string>homecartnew</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -19,13 +19,10 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 
- //imagepicker
-
 	<key>NSPhotoLibraryUsageDescription</key>
-	<String>Describe why your app need permission for the photo library</String>
-	<key>NSCameraUsageDescription</key>
-	<String>Describe why your app need permission for the camera</String>
-
+    <string>We needs your permission for the photo library</string>
+    <key>NSCameraUsageDescription</key>
+    <string> app needs access to the camera. This is called Privacy</string>
 
 	<key>CFBundleVersion</key>
 	<string>$(FLUTTER_BUILD_NUMBER)</string>

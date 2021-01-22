@@ -1,29 +1,36 @@
 import 'package:flutter/material.dart';
-import 'package:home/Suplierdis.dart';
-import 'package:home/discount%20item.dart';
-import 'package:home/importitem.dart';
-import 'package:home/loader.dart';
-import 'package:home/category_user.dart';
-import 'package:home/slider.dart';
+import 'package:homecartnew/fruits.dart';
+import 'package:homecartnew/itemimport.dart';
+import 'package:homecartnew/login.dart';
+import 'package:homecartnew/suplier.dart';
+import 'package:homecartnew/customer.dart';
+import 'package:homecartnew/vegetables.dart';
+
+
+
 
 void main() {
-  runApp(HomeCart());
+  runApp(MyApp());
 }
 
-
-class HomeCart extends StatelessWidget {
+class MyApp extends StatelessWidget {
+  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      initialRoute: Loader.id,
-      routes: {
-        Loader.id: (context) => Loader(),
-        CategoryUser.id: (context) => CategoryUser(),
-        HorizontalList.id: (context) => HorizontalList(),
-        DiscountItem.id: (context) => DiscountItem(),
-        ImportItem.id: (context) => ImportItem(),
-        Suplier.id: (context) => Suplier(),
-      },
+
+        initialRoute: login.id,
+        routes: {
+          itemimport.id:(context) => itemimport(),
+          fruits.id:(context) => fruits(),
+          vegetables.id:(context) => vegetables(),
+          login.id:(context) => login(),
+          suplier.id:(context) => suplier(),
+          customer.id:(context) => customer(),
+
+        }
     );
   }
 }
+
+
