@@ -1,4 +1,4 @@
-name: home
+name: ycart
 description: A new Flutter application.
 
 # The following line prevents the package from being accidentally published to
@@ -28,14 +28,6 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.0
-  carousel_pro: ^1.0.0
-  percent_indicator: ^2.1.9
-  cached_network_image: ^2.5.0
-  cloud_firestore: ^0.16.0
-  image_picker: ^0.6.7+21
-  firebase: ^8.0.0
-  random_string: ^2.1.0
-  firebase_storage: ^7.0.0
 
 dev_dependencies:
   flutter_test:
@@ -51,18 +43,6 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
-  assets:
-    - image/loading/61925582-assortment-of-the-fresh-vegetables-on-wooden-background.jpg
-    - image/loading/Screenshot (78).png
-    - image/slider/slider1.jpg
-    - image/slider/slider2.jpg
-    - image/slider/slider3.jpg
-    - image/slider/slider4.jpg
-    - image/category/snaks.png
-    - image/category/3-35135_cold-drink-images-png-transparent-png.png
-    - image/category/16-161650_transparent-background-vegetables-png-png-download.png
-    - image/category/507-5079494_vegetables-png-transparent-png.png
-    - image/category/fruits.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:
