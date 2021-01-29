@@ -1,6 +1,6 @@
 # home_cart
 
-A new Flutter application.
+Our new Flutter application
 
 ## Getting Started
 
