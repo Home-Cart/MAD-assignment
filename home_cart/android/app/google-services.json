@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1050832475870",
+    "project_id": "home-cart-139b0",
+    "storage_bucket": "home-cart-139b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050832475870:android:1ee8931b35eb6e3fbd944f",
+        "android_client_info": {
+          "package_name": "sarithflutter.home_cart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1050832475870-hdslup0s7a8vpqdcp59camhq5l5ea6oe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCECEh0_lwaPBKv4ltS4IJrFq0gnSMthpM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1050832475870-hdslup0s7a8vpqdcp59camhq5l5ea6oe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
