@@ -1,6 +1,6 @@
-# home_cart
+# side_menu
 
-Our new Flutter application
+A new Flutter application.
 
 ## Getting Started
 
