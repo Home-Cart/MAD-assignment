@@ -1,4 +1,4 @@
-# side_menu
+# s_up
 
 A new Flutter application.
 
